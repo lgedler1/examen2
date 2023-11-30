@@ -1,0 +1,4 @@
+16:58:09.102 [main] INFO  curso.java.Test main - Info
+16:58:09.104 [main] WARN  curso.java.Test main - warn
+16:58:09.104 [main] ERROR curso.java.Test main - error
+16:58:09.104 [main] FATAL curso.java.Test main - Fatal
