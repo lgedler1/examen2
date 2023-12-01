@@ -6,6 +6,7 @@
         <!-- entidades o entities -->
 
         <class>curso.java.hibernate.basic.entities.UserEntities</class>
+        <class>curso.java.hibernate.basic.entities.ProductoEntity</class>
         
         
         <exclude-unlisted-classes>true</exclude-unlisted-classes>

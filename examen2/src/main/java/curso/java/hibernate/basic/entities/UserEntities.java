@@ -1,9 +1,6 @@
 package curso.java.hibernate.basic.entities;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Date;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -18,13 +15,16 @@ import jakarta.persistence.Table;
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private long id;
 	
-	@Column(length = 20) 
+	@Column(length = 20, nullable = false) 
 	private	 String nombre;
-	@Column(length = 40)
+	
+	@Column(length = 40, nullable = false)
 	private String apellidos;
-	@Column(length = 10, unique = true)
+	
+	@Column(length = 10, unique = true, nullable = false)
 	private String dni;
-	@Column(name = "FECHA_ALTA")
+	
+	@Column(name = "FECHA_ALTA", nullable = false)
 	private Date fechaAlta;
 	
 	public UserEntities() {

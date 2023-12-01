@@ -26,7 +26,7 @@
 			<AppenderRef ref="LogToConsole" />
 			 <AppenderRef ref="rollingFile"/>
 		</Logger>
-		<Root level="trace">
+		<Root level="error">
 			<AppenderRef ref="LogToConsole" />
 			 <AppenderRef ref="rollingFile"/>
 		</Root>
